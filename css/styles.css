@@ -1,0 +1,169 @@
+#title{
+  background-color:#ff4c68;
+  color: white;
+}
+#big-heading{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size:3rem;
+}
+.container-fluid{
+  padding:3% 15% 7%;
+
+
+}
+#iphone_image{
+  transform:rotate(25deg);
+  position:absolute;
+  z-index: 0;
+
+  right:30%;
+
+
+  width:60%;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+.navbar{
+    padding:0 0 4.5rem;
+
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family: 'Montserrat-light';
+
+}
+.download_button{
+  margin:5% 3% 5% 0;
+}
+.para{
+  color:#8f8f8f;
+  font-family: sans-serif;
+  text-align:center;
+  font-size:1.5rem;
+}
+.heading-1{
+
+  font-size:1.5rem;
+ font-family: 'Montserrat', sans-serif;
+}
+.icon{
+color:#ef8172;
+margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+  cursor:pointer;
+}
+#features{
+  padding:7% 13%;
+  position: relative;
+
+  background-color: #fff;
+}
+.feature-box{
+  text-align: center;
+}
+/*testimonials*/
+#testimonials{
+
+  background-color:#ef8172;
+  color:#fff;
+  text-align: center;
+
+}
+.testimonial-image{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+
+}
+.carousel-item{
+    padding:7% 15%;
+
+}
+.card{
+  height:100%;
+  text-align: center;
+
+}
+/* pricing-section */
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+.iphone_image1{
+  position: relative;
+}
+@media (max-width:1028px){
+  #iphone_image{
+    position:static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+
+
+  }
+}
+#cta{
+  background-color:#ff4c68;
+  padding:10% 20%;
+  text-align: center;
+
+}
+.cta-heading{
+  padding-bottom:3%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color:#fff;
+
+}
+.cta_button_1{
+  margin-right:2%;
+
+}
+#footer{
+  font-family: sans-serif;
+  text-align: center;
+  background-color:#fff;
+  padding:5% 20%;
+}
+.footer_para{
+  margin-top:2%;
+
+}
+.footer1{
+  margin-right:1%;
+
+}
+@media (max-width:595px){
+  .cta_button_1{
+    margin-bottom:10%;
+  }
+}
+i{
+  cursor:pointer;
+}
